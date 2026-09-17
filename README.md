@@ -726,7 +726,11 @@ This project demonstrates practical Data Engineering skills across the full stre
   <img src="images/expected_result.png" width="550" alt="result">
 </p>
 
-Core competencies demonstrated include **Apache Kafka, Apache Spark Structured Streaming, Apache Airflow, distributed systems, Avro/schema governance, data-quality engineering, streaming analytics, object storage, observability, Docker, modern Python tooling, automated testing, and CI/CD**.
+What started as a streaming ETL exercise has evolved into a more complete real-time data engineering platform.
+
+The project now demonstrates **event-driven ingestion** with **Airflow** and **Kafka**, **schema governance** with Avro and Schema Registry, **distributed processing** with Spark Structured Streaming, automated data-quality handling, **real-time analytics**, S3-compatible object storage with MinIO, and end-to-end observability with Prometheus and Grafana.
+
+It also incorporates engineering practices that are important beyond the pipeline itself: reproducible Docker environments, modern Python dependency management with uv, automated tests and linting, CI/CD, Kafka access controls, and versioned container releases.
 
 ---
 
